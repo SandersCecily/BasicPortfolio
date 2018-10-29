@@ -3,7 +3,7 @@ html{
 }
 body{
     background-image: url(../images/knitting250px/knitting250px.png);
-    background-image: url(../images/lyonnette/lyonnette.png);
+    /* background-image: url(../images/lyonnette/lyonnette.png); */
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -55,4 +55,14 @@ footer{
 .bigbox{
     width: 755px;
     height: 100px;
+}
+
+#namediv {
+    background: #4aaaa5;
+    color: #ffffff;
+
+}
+
+#linkdiv{
+
 }
