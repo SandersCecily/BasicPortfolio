@@ -1,0 +1,58 @@
+html{
+    height: 100%;
+}
+body{
+    background-image: url(../images/knitting250px/knitting250px.png);
+    background-image: url(../images/lyonnette/lyonnette.png);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+p{
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+fieldset{
+    border: none;
+}
+
+header{
+    background: #ffffff;
+    border: #cccccc solid;
+}
+
+footer{
+    background: #666666;
+    border-top: 8px solid #4aaaa5; 
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.bodyh1 {
+    border-bottom: #dddddd solid;
+}
+
+#maincontent{
+    width: 960px;
+    background: #ffffff;
+    border: #dddddd solid;
+    margin: 35px auto;
+    padding: 15px;
+    flex: 1 0 auto;
+}
+
+#mepic {
+    float: left;
+    margin: 10px 25px 15px 15px;
+}
+
+.bigbox{
+    width: 755px;
+    height: 100px;
+}
