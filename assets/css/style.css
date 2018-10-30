@@ -1,6 +1,7 @@
 html{
     height: 100%;
 }
+
 body{
     background-image: url(../images/knitting250px/knitting250px.png);
     /* background-image: url(../images/lyonnette/lyonnette.png); */
@@ -8,6 +9,7 @@ body{
     display: flex;
     flex-direction: column;
 }
+
 h1{
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -22,9 +24,10 @@ fieldset{
     border: none;
 }
 
-header{
+nav{
     background: #ffffff;
-    border: #cccccc solid;
+    border-bottom: #cccccc solid;
+    padding-top: 0px;
 }
 
 footer{
@@ -32,6 +35,7 @@ footer{
     border-top: 8px solid #4aaaa5; 
     height: 50px;
     flex-shrink: 0;
+    text-align: center;
 }
 
 .bodyh1 {
@@ -55,14 +59,4 @@ footer{
 .bigbox{
     width: 755px;
     height: 100px;
-}
-
-#namediv {
-    background: #4aaaa5;
-    color: #ffffff;
-
-}
-
-#linkdiv{
-
 }
