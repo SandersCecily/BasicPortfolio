@@ -4,7 +4,6 @@ html{
 
 body{
     background-image: url(../images/knitting250px/knitting250px.png);
-    /* background-image: url(../images/lyonnette/lyonnette.png); */
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -28,6 +27,7 @@ nav{
     background: #ffffff;
     border-bottom: #cccccc solid;
     padding: 0px 0px 10px 15px;
+    width: 100%;
 }
 
 footer{
@@ -59,4 +59,24 @@ footer{
 .bigbox{
     width: 755px;
     height: 100px;
+}
+
+.namediv{
+    width: 25%;
+    background:#4aaaa5;
+    float: left;
+    opacity: .7;
+}
+
+.namediv h1{
+    color: #ffffff;
+    font-size: xx-large;
+    opacity: 1;
+}
+
+.linkdiv{
+    width: 50%;
+    float: right;
+    text-align: right;
+    font-size: 20px;
 }
